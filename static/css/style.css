@@ -1,0 +1,148 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.jumbotron {
+  background-color: #FFAFBD;
+  color: #333;
+  padding: 100px 25px;
+  text-align: center;
+  border-radius: 0;
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.jumbotron p {
+  font-size: 1.5rem;
+}
+
+.card {
+  border: none;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  height: 100%;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.card-icon {
+  font-size: 3.5rem;
+  color: #FF6B6B;
+}
+
+.btn-primary {
+  background-color: #FF6B6B;
+  border-color: #FF6B6B;
+  font-size: 1.2rem;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.btn-primary:hover {
+  background-color: #FF8E8E;
+  border-color: #FF8E8E;
+}
+
+.footer {
+  background-color: #343a40;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.main-content {
+  flex: 1;
+  margin-bottom: 70px;
+}
+
+.page-title {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.graph-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.graph-image {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.back-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-link a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.back-link a:hover {
+  color: #FF6B6B;
+}
+
+.back-link .btn {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  background-color: #FF6B6B;
+  border: none;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.back-link .btn:hover {
+  background-color: #FF8E8E;
+}

@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+
+{% block title %}Graph Visualization{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="page-title mb-4">
+        Graph Visualization
+    </div>
+    <div class="graph-container mb-4">
+        <img src="{{ url_for('static', filename=graph) }}" alt="Graph" class="graph-image">
+    </div>
+    
+    <div class="back-link">
+        <a href="/" class="btn btn-primary"><i class="fas fa-home mr-2"></i> Back to Home</a>
+    </div>
+</div>
+{% endblock %}
